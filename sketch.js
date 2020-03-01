@@ -1,6 +1,5 @@
 function setup() {
       createCanvas(windowWidth,windowHeight);
-      console.log("Hello");
 
       noCursor();
       colorMode(HSB,windowHeight,100,100);
