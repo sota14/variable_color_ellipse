@@ -10,7 +10,7 @@ function setup() {
 
       function draw() {
       background(mouseY/2,100,100);
-      fill(windowWidth/2-mouseY/2,100,100);
+      fill(windowHight/2-mouseY/2,100,100);
       ellipse(mouseX,mouseY,100,100);
       frameRate(60)
       }
